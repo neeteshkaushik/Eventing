@@ -31,7 +31,6 @@ const start = async () => {
   eventing.trigger("click");
   eventing.off("click");
   eventing.trigger("press");
-  process.exit(0);
 };
 
 start();
